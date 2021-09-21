@@ -1,0 +1,50 @@
+$font-family-sans-serif:'Barlow Semi Condensed', sans-serif;
+$info:#7341C6;
+$success:#4A556B;
+$danger:#FFFFFF;
+$warning:#19202A;
+$dark:#48556A;
+$font-size-base:0.69rem;
+
+$container-max-widths:(
+    sm: 540px,
+    md: 720px,
+    lg: 1020px,
+    xl: 1021px,
+    xxl:1022px
+);
+
+$font-weight-normal:500;
+$font-weight-bold:600;
+$gray-600:#CFCFCF;
+$gray-900:#48556A;
+
+
+@media (min-width:992px) {
+    .visual100 {
+        height: 100vh;
+    }
+}
+
+main{
+    background-color: #DBE9F2;
+}
+
+body{
+    background-color: #DBE9F2 !important;
+}
+
+
+
+
+.d-flex img {
+    width: 30px;
+}
+
+.quote-background {
+    background:no-repeat url(/images/bg-pattern-quotation.svg);
+    background-position: 85% top;
+}
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
