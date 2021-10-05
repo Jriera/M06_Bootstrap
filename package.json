@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "sass": "node-sass --watch sass -o css",
-    "optim-css":"purgecss --css css/custom.css --content index.html -o css/optim-custom.css"
-    
+    "optim-css": "purgecss --css css/custom.css --content index.html -o css/optim-custom.css"
   },
   "keywords": [],
   "author": "",
